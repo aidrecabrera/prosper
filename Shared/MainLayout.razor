@@ -1,0 +1,19 @@
+﻿@using Prosper.Pages
+@inherits LayoutComponentBase
+
+<PageTitle>Prosper</PageTitle>
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<div class="page">
+    <nav>
+        <Sidebar/>
+    </nav>
+    <main>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
