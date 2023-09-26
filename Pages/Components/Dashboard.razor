@@ -1,0 +1,46 @@
+﻿@page "/dashboard"
+
+<MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+    <MudGrid Class="gap-3">
+        @foreach (var item in Items)
+        {
+            <div style="width: 300px;">
+                <Prosper.Pages.Elements.Items itemName="@item" />
+            </div>
+        }
+    </MudGrid>
+</MudContainer>
+
+
+
+@code {
+
+    private List<string> Items { get; set; } = new List<string>()
+  {
+    "Voopoo",
+    "Apple",
+    "Minecraft",
+    "iPhone",
+    "Voopoo",
+    "Apple",
+    "Minecraft",
+    "iPhone",   
+    "Voopoo",
+    "Apple",
+    "Minecraft",
+    "Apple",
+    "Minecraft",
+    "Apple",
+    "Minecraft",
+    "Apple",
+    "Minecraft",
+    "Apple",
+    "Minecraft",
+    "Apple",
+    "Minecraft",
+    "Apple",
+    "Minecraft",
+    "iPhone"
+  };
+
+}

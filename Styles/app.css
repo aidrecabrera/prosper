@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box {
+    position: relative;
+    width: 278px;
+    height: 283px;
+}
+
+    .box .item {
+        position: fixed;
+        width: 278px;
+        height: 283px;
+        top: 0;
+        left: 0;
+    }
+
+    .box .photo {
+        position: absolute;
+        width: 276px;
+        height: 200px;
+        top: 0;
+        left: 0;
+        background-color: #1c1e24;
+        border-radius: 15px;
+    }
+
+    .box .overlap-group {
+        position: absolute;
+        width: 272px;
+        height: 60px;
+        top: 223px;
+        left: 6px;
+    }
+
+    .box .description {
+        position: absolute;
+        width: 194px;
+        height: 60px;
+        top: 0;
+        left: 0;
+    }
+
+    .box .frame {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+    }
+
+    .box .text-wrapper {
+        position: relative;
+        width: 187px;
+        margin-top: -1px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 21px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .box .div {
+        position: relative;
+        width: 194px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 21px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .box .buttons {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 7px;
+        left: 162px;
+    }
+
+    .box .remove {
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
+
+    .box .minus {
+        height: 50px;
+    }
+
+    .box .div-2 {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        background-color: #d9d9d9;
+        border-radius: 15px;
+    }
+
+    .box .vector {
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        top: 23px;
+        left: 12px;
+    }
+
+    .box .plus {
+        position: relative;
+        width: 21px;
+        height: 21px;
+        top: 15px;
+        left: 13px;
+        background-image: url(./img/vector.svg);
+        background-size: 100% 100%;
+    }

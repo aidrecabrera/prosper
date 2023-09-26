@@ -1,0 +1,16 @@
+﻿<MudCard>
+    <MudCardContent Class="">
+        <MudText>@itemName</MudText>
+        <MudText Typo="Typo.body2">@itemDescription</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+    </MudCardActions>
+</MudCard>
+
+@code {
+    [Parameter]
+    public string? itemName { get; set; } = "Item Name";
+    [Parameter]
+    public string? itemDescription { get; set; } = "Item Description";
+}
